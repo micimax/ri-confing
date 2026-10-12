@@ -1,4 +1,6 @@
 {
   "endpoint_primario_url": "https://api1.mioserver.com",
-  "endpoint_secondario_url": "https://api2.mioserver.com"
+  "endpoint_secondario_url": "https://api2.mioserver.com",
+  "cb01": "https://cineblog001.delivery",
+  "altadefinizione": "https://altadefinizione.mba"
 }
