@@ -1,0 +1,10 @@
+{
+    "catalogo": [
+        {
+            "titolo": "Film di Test per la TV",
+            "categoria": "Film",
+            "locandina": "https://via.placeholder.com/300x450.png?text=Test+Film",
+            "url_video": "https://www.w3schools.com/html/mov_bbb.mp4"
+        }
+    ]
+}
