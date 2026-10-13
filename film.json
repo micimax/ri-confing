@@ -1,9 +1,9 @@
 {
     "catalogo": [
         {
-            "titolo": "Film di Test per la TV",
-            "categoria": "Film",
-            "locandina": "https://via.placeholder.com/300x450.png?text=Test+Film",
+            "titolo": "Attesa Estrazione Film",
+            "categoria": "Test",
+            "locandina": "https://via.placeholder.com/300x450.png?text=Sistema+Attivo",
             "url_video": "https://www.w3schools.com/html/mov_bbb.mp4"
         }
     ]
