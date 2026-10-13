@@ -1,0 +1,22 @@
+name: Aggiorna Liste Automaticamente
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+jobs:
+  aggiorna:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    - run: python scraper.py
+    - run: |
+        git config --global user.name "Ragno"
+        git config --global user.email "bot@github.com"
+        git add lista.m3u film.json
+        git commit -m "Aggiornamento" || echo "Nessuna modifica"
+        git push
