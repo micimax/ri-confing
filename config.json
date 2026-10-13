@@ -2,7 +2,7 @@
   "endpoint_primario_url": "https://api1.mioserver.com",
   "endpoint_secondario_url": "https://api2.mioserver.com",
   "playlist": {
-    "Live": ["https://forgejo.it/peppenamir/iptv_italia/raw/branch/main/lista.m3u"],
+    "Live": "Live": ["https://api.allorigins.win/raw?url=https://forgejo.it/peppenamir/iptv_italia/raw/branch/main/lista.m3u"],
     "Film": [],
     "Serie": [],
     "Sport": []
